@@ -1,0 +1,434 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;800;900&family=Roboto&display=swap');
+
+
+:root{
+    --gray:#636C79;
+    --white:#fff;
+    --light-gray:#BBBEC4;
+    --green:#8BB7A2;
+    --black:#000000;
+    --blue:#10181D
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 16px;
+
+}
+body{
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+
+.justify-content-center{
+    justify-content:center
+}
+
+.container{
+    max-width: 1400px;
+    padding-left:10px ;
+    padding-right: 10px;
+}
+.flex{
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-1{
+    flex: 1;
+}
+
+.flex-item{
+    flex: 0 50%;
+
+}
+.ml-auto{
+    margin-left: auto;
+}
+
+
+.items-center{
+    align-items: center;
+}
+
+li{
+    list-style: none;
+}
+
+.mx-auto{
+    margin-left:auto ;
+    margin-right: auto;
+}
+.space-between{
+    justify-content: space-between;
+}
+img{
+    width: 100%;
+}
+
+.text-white{
+    color: var(--white)
+}
+.px-1{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.px-2{
+    padding-top:2rem;
+    padding-bottom: 2rem;
+}
+.px-3{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+.px-4{
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+.px-5{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+.mx-1{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.mt-4{
+    margin-top: 4rem;
+}
+.self-center{
+    align-self: center;
+}
+
+.main-heading{
+    font-size: 4rem;
+    font-weight: 500;
+}
+.small-heading{
+    font-size: 1.2rem;
+    color: var(--light-gray);
+}
+.text-center{
+text-align: center;
+}
+.medium-heading{
+ font-size: 3rem;
+}
+.mw-500{
+    max-width: 500px;
+}
+.mw-400{
+    max-width: 400px;
+}
+.mw-700{
+    max-width: 700px;
+}
+.text-black{
+    color: var(--black);
+}
+.font-light{
+    font-weight: 500;
+}
+.order-2{
+    order: 2;
+}
+
+.order-1{
+    order: 1;
+}
+
+.flex-gap{
+    gap: 30px;
+}
+
+/* Navbar */
+
+header{
+    height: 100px;
+    background-color: var(--gray);
+}
+
+nav{
+    width: 100%;
+}
+.nav_logo{
+    width: 130px;
+}
+
+.nav-left-container{
+    gap: 200px;
+}
+
+.nav-btn{
+    width: 150px;
+    padding: 0.8rem 0;
+    background-color: transparent;
+    border: 1px solid var(--light-gray);
+    color: var(--white);
+    cursor: pointer;
+}
+
+.nav-left-container ul{
+    gap: 50px;
+    font-weight: 300;
+    font-size: 1.1rem;
+}
+.nav-left-container ul li{
+    color: var(--white);
+}
+
+
+/* Hero Section */
+.hero-section{
+    background-color: var(--gray);
+}
+.hero-section img{
+    object-fit: cover;
+    height: 600px;
+    background-position: center;
+    border-radius: 5px;
+}
+
+.hero-section-container {
+    display: flex;
+    gap: 100px;
+}
+
+.input_container{
+    background-color: var(--white);
+    padding: 5px 20px;
+    display: flex;
+    align-items: center;
+}
+
+
+.input_container i{
+    color: #000;
+    margin-right: 10px;
+
+}
+
+.input_container input{
+    border: none;
+    padding: 20px 0;
+    flex: 0.7;
+    outline: none;
+    font-size: 1rem;
+
+}
+
+
+
+.input_container input::placeholder{
+    font-size: 1rem;
+}
+
+.hero-btn{
+ background-color: var(--green);
+ border: none;
+ color: var(--white);
+ padding: 1.2rem;
+ flex: 0.3;
+ cursor: pointer;
+ font-size: 1rem;
+ font-weight: 500;
+}
+
+
+.about .small-heading{
+font-weight: 400;
+}
+
+.about-image{
+    width: 1000px;
+}
+
+.btn{
+    padding: 15px 0;
+     border: none;
+    color: #fff;
+    width: 30%;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.bg-green{
+    background-color: var(--green);
+}
+.digital img{
+    width: 100%;
+    height:550px;
+    object-fit: contain;
+}
+.flex-half{
+flex: 0.5;
+}
+.team h1{
+    font-size: 2.5rem;
+    font-weight: 400;
+}
+.card-container{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+.card{
+    padding: 0 20px;
+}
+.card img{
+    width: 400px;
+}
+.card .card-heading{
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.card p{
+    color: var(--gray);
+}
+.team button{
+    width: 15%;
+}
+footer{
+    background-color: var(--blue);
+}
+.footer-logo{
+    width: 130px;
+}
+.footer-right-logo{
+    background-color: var(--blue);
+}
+.social{
+    gap: 20px;
+}
+.social div{
+    background-color: #282F34;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.social i{
+    color: var(--white);
+}
+.empty{
+    width: 100%;
+    height: 2px;
+    background-color: #282F34;
+}
+.footer-bottom{
+    color: var(--white);
+    gap: 30px;
+}
+.footer-bottom >div{
+    width: 400px;
+}
+.footer-bottom h3{
+    font-weight: 500;
+    font-size: 1.2rem;
+    margin-bottom: 0.8rem;
+}
+.footer-bottom ul li{
+    margin: 20px 0;
+    color: var(--gray);
+}
+@media screen and (max-width:800px) {
+    html{
+        font-size: 14px;
+    }
+    .flex-item{
+        flex: 0 100%;
+    }
+    header nav{
+        flex-direction: column !important;
+    }
+    .main-heading{
+        font-size: 3rem;
+    }
+    .nav-left-container {
+        display: none;
+    }
+    .hero-section-container{
+        gap: 50px;
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .hero-section img{
+        height: auto;
+    }
+    .mw-500{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .about-container{
+        gap: 50px;
+        flex-direction: column;
+    }
+    .about-image{
+        width: 100%;
+    }
+
+    .design .flex{
+        flex-direction: column;
+        text-align: center;
+    }
+    .design .order-2{
+        order: 1;
+    }
+    .design .order-1{
+        order: 2;
+    }
+    .digital .flex{
+        flex-direction: column;
+        text-align: center;
+
+    }
+    .team .team-heading{
+        flex-direction: column;
+        text-align: center;
+    }
+  .btn{
+        width: 100% !important;
+    }
+    .card img{
+        width: 100%;
+    }
+    .digital img{
+      width: 100%;
+    }
+    .judge .flex{
+        flex-direction: column;
+        text-align: center;
+    }
+    .judge .order-2{
+        order: 1;
+    }
+    .judge .order-1{
+        order: 2;
+    }
+    .card-container{
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer-top{
+        flex-direction: column;
+        gap: 30px;
+    }
+    .footer-bottom{
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+
+        
+    }
+    .footer-bottom>div{
+        width: 100%;
+        text-align: center;
+    }
+}
