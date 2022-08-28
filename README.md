@@ -31,4 +31,4 @@
 
 ## How the website looks like
 
-![Desktop](./thumbnail.png)
+![Desktop](./images/12.png)
